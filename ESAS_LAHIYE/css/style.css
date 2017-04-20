@@ -1,0 +1,349 @@
+html,
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    height: 2000px;
+}
+.wrapper {
+    width:100%;
+    margin: 0 auto;
+}
+.row {
+    display: block;
+}
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+.clearfix {
+    clear: both;
+}
+[class*='col_'] {
+    float: left;
+}
+.col_1 {
+    width: 8.3333%;
+}
+.col_offset_1 {
+    margin-left: 8.3333%;
+}
+.col_offset_1_sag {
+    margin-right:8.3333%;
+}
+.col_2 {
+    width: 16.667%;
+}
+.col_offset_2 {
+    margin-left: 16.667%;
+}
+.col_offset_2_sag {
+    margin-right: 16.667%;
+}
+.col_3 {
+    width: 25%;
+}.col_offset_3 {margin-left: 25%;
+}.col_offset_3_sag {margin-right: 25%;
+}.col_4 {width: 33.3333%;
+}.col_offset_4 {margin-left: 33.3333%;
+}.col_offset_4_sag {margin-right: 33.3333%;
+}.col_5 {width: 41.6667%;
+}.col_offset_5 {margin-left: 41.6667%;
+}.col_offset_5_sag {margin-right: 41.6667%;
+}.col_6 {width: 50%;
+}.col_offset_6 {margin-left: 50%;
+}.col_offset_6_sag {margin-right: 50%;
+}.col_7 {
+width: 58.3333%;
+}.col_offset_7 {margin-left: 58.3333%;
+}.col_offset_7_sag {margin-right: 58.3333%;
+}.col_8 {width: 66.6667%;
+}.col_offset_8 {margin-left: 66.6667%;
+}.col_offset_8_sag {margin-right: 66.6667%;
+}.col_9 {width: 75%;
+}.col_offset_9 {margin-left: 75%;
+}.col_offset_9_sag {margin-right: 75%;
+}.col_10 {
+width: 83.3333%;
+}.col_11 {
+width: 91.6667%;
+}.col_12 {
+width: 100%;
+}.header{
+height:800px;
+}.header1{
+height:100px;
+}.header2{
+height:700px;
+}.header2_1{
+height:700px;
+}.header1_1{
+height:100px;
+}.header1_2{
+height:100px;
+}.header1_3{
+height:100px;}
+.header1_1  img{float:right;
+margin-right:120px;margin-top:20px;}.header1_2 i{color:white;background-color:#18afd3;
+border-radius:100px; 
+height:50px;width:50px;font-size:38px;display:flex;
+justify-content:center;align-items:center;
+}.header1_2 h4 {
+font-size:15px;
+color:black;
+margin-left:55px;
+margin-top:-45px;
+color:white;
+}.header1_2{
+display:flex;
+justify-content:center;
+}.ic{
+margin-top:23px;
+}.header1_3 i{
+color:white;
+background-color:#18afd3;
+border-radius:100px; 
+height:50px;
+width:50px;
+font-size:38px;
+display:flex;
+justify-content:center;
+align-items:center;
+}.header1_3 h3 {
+font-size:14px;
+color:black;
+margin-left:55px;
+margin-top:-42px;
+color:white;
+}.header1_3{
+display:flex;
+justify-content:center;
+}.header1_3 a:hover{
+border-bottom:1px solid white;
+}.header1_2 h4:hover{
+border-bottom:1px solid white;
+}.header2_1{
+}.ic1{
+margin-right:150px;
+margin-top:20px;
+}.header{
+background:url(../img/1.jpg);
+background-size:cover;
+}.header1,.header2{
+background:rgba(14, 99, 119, 0.36)
+}.header2_1 p{
+color:white;
+font-size: 48px;
+letter-spacing: 0.02em;
+font-family: inherit;
+}#sidebar-btn {display: inline-block;
+vertical-align: middle;
+width: 20px;
+height: 15px;
+cursor: pointer;
+position: absolute;
+right: -100px;
+bottom:700px;
+border:1px solid white;
+border-radius:70px;
+border-width:17px;
+background-color:white;
+margin-left:100px;}
+#sidebar-btn span {
+height:4px;
+background: #18afd3;
+margin-bottom:2px;
+display: block;
+}#sidebar-btn span:nth-child(2) { width: 100%; }#sidebar-btn span:nth-child(3) { width: 100%; }#sidebar {background: white;
+width: 300px;
+height: 100%;
+display: block;
+position: absolute;
+position:fixed;
+left: -300px;
+top: 0;
+transition: left 0.3s linear;
+}#sidebar.visible {
+left: 0;
+transition: left 0.3s linear;
+}.header2_1_yazi1{margin-top:180px;margin-left:75px;
+}.header2_1_yazi1 p:nth-child(2){font-size:20px;
+}
+.header2_1_yazi1 button{
+width:225.27px;
+height:50px;
+border-radius:
+50px;border:0;
+margin-top:25px;
+background-color:#f57e57;
+cursor:pointer;
+}.header2_1_yazi1 button h2{text-transform:uppercase;font-size:15px;color:white;
+}.header2_2 .panel{height:441px;width:369px;background: rgba(33, 33, 33, 0.4);margin-left:80px;margin-top:250px;
+}
+.panel_ic{
+width:290px;
+height:441px;
+margin-left:56px;
+}.panel_ic .head_text p{
+margin-top:-200px;
+color:#E7E7EF;
+font-size:22px;
+}
+.panel_ic .input label{
+font-size:12px;
+}
+.panel_ic .input input{
+color:black;
+height:50px;
+width:283px;
+border-radius:10px;
+border:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
